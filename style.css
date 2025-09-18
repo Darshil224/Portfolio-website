@@ -324,7 +324,7 @@ form .btn2{
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 .copyright i{
     color: #ff004f;
@@ -395,9 +395,12 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
-
-
-
-
-
+}
+/* ----------------------------contact form submit message------------------------------ */
+#msg{
+    min-height: 17px;   /* reserve space for 1 line of text */
+    color: #b5dc67;
+    font-size: 14px;
+    margin-top: -40px;
+    display: block;
 }
