@@ -1,50 +1,29 @@
-# Portfolio-website
+# Darshil Chitranshi – Portfolio Website
 
-This is my **Personal Portfolio Website** project.  
-It will showcase my skills, projects, experience, and contact information in a clean, modern, and professional way.
+Welcome to my personal portfolio website, showcasing my journey as a Web Developer.
 
-## 🚀 Overview
+## 🌐 Live Demo
 
-A responsive portfolio website built using **HTML, CSS, JavaScript, and React**.  
-The purpose of this project is to create an interactive digital resume to present my work and make it easy for recruiters and clients to connect with me.
+View the live portfolio here:  
+🔗 [https://darshil-chitranshi.netlify.app](https://darshil-chitranshi.netlify.app/)
 
----
+## 🧰 Features
 
-## ⚡ Planned Features
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **About Me Section**: Highlights my background, skills, and experiences.
+- **Services Offered**: Details on the services offered by me.
+- **Portfolio Showcase**: Displays projects including their live link and code.
+- **Contact Form**: Integrated with Google Sheets via Google Apps Script for seamless message collection.
 
-- Responsive design (mobile & desktop friendly)  
-- About Me section  
-- Skills showcase  
-- Projects section with interactive project cards  
-- Contact form with email integration  
-- Smooth animations and transitions  
-- Dark mode toggle  
-- Downloadable Resume link  
-- Social media links  
-- Reusable React components
+## 🔧 Tech Stack
 
----
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Form Handling**: Google Apps Script (connected to Google Sheets)
 
-## 🛠️ Tech Stack
+## 🚀 Deployment
 
-- HTML5  
-- CSS3 (Flexbox, Grid, animations)  
-- JavaScript (ES6+)  
-- React  
-- React Router  
-- Optional: Tailwind CSS or styled-components
+Deployed using Netlify for continuous integration and hosting.
 
----
-
-## 🎯 Next Steps
-
-- Design wireframes & mockups  
-- Set up React project structure  
-- Build reusable components (Navbar, Footer, ContactForm, ProjectCard)  
-- Integrate working contact form  
-- Add animations  
-- Optimize performance and SEO  
-- Deploy (Netlify or Vercel)
 
 
 
