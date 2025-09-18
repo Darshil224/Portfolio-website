@@ -150,11 +150,11 @@
                     <a href="images/Darshil Resume.pdf" download class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
-                    <form>
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <input type="text" name="subject" placeholder="Subject"  >
-                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="text" name="Subject" placeholder="Subject"  >
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
 
                     </form>
@@ -190,6 +190,18 @@
         function closemenu(){
             sidemenu.style.right="-200px";
         }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwxDTXTQaQ72bnXhFFddckGY7thw1ELJ5GWn6ZvKGgLFQ3enVjSdm6Ddxd6s8IMZuM0/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+        })
     </script>
     
 </body>
