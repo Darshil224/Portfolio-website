@@ -1,174 +1,357 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darshil Chitranshi portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/84a365d074.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="/images/logoDC.png" type="image/png">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darshil Chitranshi portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/84a365d074.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/images/logoDC.png" type="image/png" />
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logoDC.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-
-            </nav>
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>Darshil</span><br>Chitranshi from India.</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/logoDC.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi, I'm <span>Darshil</span><br />Chitranshi from India.</h1>
         </div>
+      </div>
     </div>
     <!-- ------------------------About--------------------------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/2025091512205728-removebg-preview (1).png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am a final-year Information Technology student with strong fundamentals in Data Structures and Algorithms, having solved 400+ problems across platforms. I qualified GATE 2026 with a 95.2 percentile in Computer Science, reflecting my problem-solving ability and core CS knowledge. I enjoy building clean, responsive web interfaces and continuously improving my development skills.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links"onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Building Android/iOS apps</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2021 - Current</span><br>Designing Web/App interfaces at Microsoft</li>
-                            <li><span>2019 - 2021</span><br>Web App Development at google</li>
-                            <li><span>2017 - 2019</span><br>Building Android/iOS apps at TCS</li>
-                            <li><span>2016 - 2017</span><br>Building Android/iOS apps at Infosys</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2022 - 2026</span><br>BTech in IT at SATI Vidisha</li>
-                            <li><span>2021 - 2022</span><br>Class 12th CBSE </li>
-                            <li><span>2019 - 2020</span><br>Class 10th CBSE</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/2025091512205728-removebg-preview (1).png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a BTech Information Technology graduate passionate about web
+              development and software engineering. I enjoy building responsive
+              and user-friendly web applications and have worked on projects
+              such as DhanTrax, a personal finance tracker, and TripBozo, a
+              travel recommendation platform. I qualified GATE 2026 in Computer
+              Science with a 95.2 percentile and continue to strengthen my
+              problem-solving skills through Data Structures and Algorithms.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('achievements')">
+                Achievements
+              </p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Development</span><br />
+                  HTML, CSS, JavaScript, Responsive Web Design, Currently
+                  Learning React
+                </li>
+
+                <li>
+                  <span>Programming</span><br />
+                  C, C++, JavaScript
+                </li>
+
+                <li>
+                  <span>Problem Solving</span><br />
+                  Data Structures & Algorithms, 200+ LeetCode, 200+
+                  GeeksforGeeks
+                </li>
+
+                <li>
+                  <span>Tools & Technologies</span><br />
+                  Git, GitHub, VS Code, Figma, Canva
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li>
+                  <span>DhanTrax</span><br />
+                  Personal finance tracker featuring transaction management and
+                  budgeting functionality using HTML, CSS and JavaScript.
+                </li>
+
+                <li>
+                  <span>TripBozo</span><br />
+                  Group travel recommendation project where I contributed to
+                  frontend UI design and implementation.
+                </li>
+
+                <li>
+                  <span>Portfolio Website</span><br />
+                  Responsive personal portfolio website built with HTML, CSS and
+                  JavaScript.
+                </li>
+
+                <li>
+                  <span>JavaScript Mini Projects</span><br />
+                  Interactive projects including Rock Paper Scissors and other
+                  DOM-based applications.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - 2026</span><br />
+                  BTech Information Technology, Samrat Ashok Technological
+                  Institute (SATI), Vidisha<br />
+                  CGPA: 8.37
+                </li>
+
+                <li>
+                  <span>2021 - 2022</span><br />
+                  Class 12 (CBSE) - PCM<br />
+                  93%
+                </li>
+
+                <li>
+                  <span>2019 - 2020</span><br />
+                  Class 10 (CBSE)<br />
+                  97.2%
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="achievements">
+              <ul>
+                <li>
+                  <span>GATE 2026 (Computer Science)</span><br />
+                  Qualified with 95.2 Percentile
+                </li>
+
+                <li>
+                  <span>GATE 2026 (Data Science & AI)</span><br />
+                  Qualified with 94.6 Percentile
+                </li>
+
+                <li>
+                  <span>Problem Solving</span><br />
+                  Solved 200+ LeetCode and 200+ GeeksforGeeks problems
+                </li>
+
+                <li>
+                  <span>Smart India Hackathon</span><br />
+                  Represented college team after qualifying internal rounds
+                </li>
+
+                <li>
+                  <span>GeeksforGeeks Campus Mantri</span><br />
+                  Campus Ambassador for the 2024-25 session
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- ------------------------------Services--------------------------- -->
-     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div class="col-1">
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolores quibusdam ab laboriosam officia veritatis recusandae quisquam doloremque corporis exercitationem nulla ullam labore velit veniam, debitis accusamus distinctio, eveniet eum.</p>
-                    <a href="#">learn more</a>
-                </div>
-                <div class="col-2">
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolores quibusdam ab laboriosam officia veritatis recusandae quisquam doloremque corporis exercitationem nulla ullam labore velit veniam, debitis accusamus distinctio, eveniet eum.</p>
-                    <a href="#">learn more</a>
-                </div>
-                <div class="col-3">
-                    <i class="fa-brands fa-android"></i>
-                    <h2>Android Dev</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolores quibusdam ab laboriosam officia veritatis recusandae quisquam doloremque corporis exercitationem nulla ullam labore velit veniam, debitis accusamus distinctio, eveniet eum.</p>
-                    <a href="#">learn more</a>
-                </div>
-            </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">What I Do</h1>
 
+        <div class="services-list">
+          <div class="col-1">
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Building responsive and user-friendly web interfaces using HTML,
+              CSS, JavaScript, and currently learning React.
+            </p>
+          </div>
+
+          <div class="col-2">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Problem Solving</h2>
+            <p>
+              Practicing Data Structures and Algorithms through LeetCode and
+              GeeksforGeeks while strengthening core Computer Science concepts.
+            </p>
+          </div>
+
+          <div class="col-3">
+            <i class="fa-solid fa-diagram-project"></i>
+            <h2>Project Development</h2>
+            <p>
+              Building practical projects such as DhanTrax and portfolio
+              applications to improve development skills and gain hands-on
+              experience.
+            </p>
+          </div>
         </div>
-     </div>
+      </div>
+    </div>
     <!-- ------------------------------Portfolio--------------------------- -->
-     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png" >
-                    <div class="layer">
-                        <h3>Personal Portfolio</h3>
-                        <p>Portfolio Website — A clean, lightweight personal portfolio built with core frontend technologies (HTML, CSS, and JavaScript).The codebase is compact and easy to read, making it a good showcase of frontend fundamentals — responsive layout, visual styling, and basic DOM scripting — and a practical starting point for further enhancements or customization.</p>
-                        <a href="https://github.com/Darshil224/Portfolio-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-2.png" >
-                    <div class="layer">
-                        <h3>dCalculator Android App</h3>
-                        <p>I built dCalculator, a fully functional Android calculator app using Kotlin, to showcase my skills in mobile development, UI/UX design, and logic implementation. The app supports basic arithmetic operations (addition, subtraction, multiplication, division), decimal inputs, chaining of operations, clear/undo functionality, and handles edge cases such as division by zero. The code structure follows the MVVM pattern and uses appropriate view binding to separate UI from logic. The project demonstrates clean Kotlin code, thoughtful state management, and responsive design for different device sizes.</p>
-                        <a href="https://github.com/Darshil224/dCalculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png" >
-                    <div class="layer">
-                        <h3>Food Delivery App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat velit, delectus architecto dolorem maiores ipsum.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>DhanTrax</h3>
+              <p>
+                Personal finance tracker built using HTML, CSS, and JavaScript.
+                Features transaction management, budgeting, savings tracking,
+                responsive design, and interactive UI components.
+              </p>
+
+              <a
+                class="github-link"
+                href="https://github.com/Darshil224/Dhantrax"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <!-- <p>
+                <a class="live-link" href="#" target="_blank">
+                  View Live Demo
+                </a>
+              </p> -->
             </div>
-            <a href="#" class="btn">See More</a>
-            
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Personal Portfolio</h3>
+              <p>
+                Responsive portfolio website built using HTML, CSS, and
+                JavaScript to showcase projects, skills, achievements, and
+                contact information.
+              </p>
+
+              <a
+                class="github-link"
+                href="https://github.com/Darshil224/Portfolio-website"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <p>
+                <a
+                  class="live-link"
+                  href="https://darshil-chitranshi.netlify.app"
+                  target="_blank"
+                >
+                  View Live Demo
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Rock Paper Scissors</h3>
+              <p>
+                Interactive browser game built with JavaScript featuring score
+                tracking, localStorage persistence, keyboard controls, auto-play
+                functionality, and dynamic DOM updates.
+              </p>
+
+              <a
+                class="github-link"
+                href="https://github.com/Darshil224/Rock-Paper-Scissors"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <!-- <p>
+                <a class="live-link" href="YOUR_NETLIFY_LINK" target="_blank">
+                  View Live Demo
+                </a>
+              </p> -->
+            </div>
+          </div>
         </div>
-     </div>
+
+        <a href="https://github.com/Darshil224" target="_blank" class="btn">
+          View More on GitHub
+        </a>
+      </div>
+    </div>
     <!-- ------------------------------Contact--------------------------- -->
-     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>darshilchitranshi2204@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>9234567890</p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/darshil-chitranshi/"><i class="fa-brands fa-square-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                        <a href="https://github.com/Darshil224"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="mailto:darshilchitranshi2204@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
-                    </div>
-                    <a href="images/Darshil Resume.pdf" download class="btn btn2">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <input type="text" name="Subject" placeholder="Subject"  >
-                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-
-                    </form>
-                    <span id="msg"></span>
-                </div>  
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              <a
+                class="email-link"
+                href="mailto:darshilchitranshi2204@gmail.com"
+              >
+                darshilchitranshi2204@gmail.com
+              </a>
+            </p>
+            <p><i class="fa-solid fa-phone"></i>7974405299</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/darshil-chitranshi/"
+                ><i class="fa-brands fa-square-linkedin"></i
+              ></a>
+              <!-- <a href=""><i class="fa-brands fa-square-x-twitter"></i></a> -->
+              <a href="https://github.com/Darshil224"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+              <a href="mailto:darshilchitranshi2204@gmail.com"
+                ><i class="fa-solid fa-square-envelope"></i
+              ></a>
             </div>
+            <a href="images/Darshil Resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <input type="text" name="Subject" placeholder="Subject" />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Copyright 2025-26 © Darshil. Made from scratch by Me<i class="fa-solid fa-heart"></i></p>
-        </div>
-     </div>
+      </div>
+      <div class="copyright">
+        <p>© 2026 Darshil Chitranshi. Designed and developed by me.</p>
+      </div>
+    </div>
 
-        <script src="/script.js"></script>
-    
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>
