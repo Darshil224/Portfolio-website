@@ -20,12 +20,27 @@ body {
 }
 .container {
   padding: 10px 10%;
+  margin-top: 30px;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  width: 100%;
+  z-index: 1000;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  background: rgba(8, 8, 8, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 .logo {
   width: 140px;
@@ -68,6 +83,7 @@ nav ul li a:hover::after {
 /* ----------------------------------About--------------------------------------- */
 #about {
   padding: 80px 0;
+  padding-top: 100px;
   color: #ababab;
 }
 .row {
@@ -76,19 +92,24 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
 }
 .about-col-1 {
-  flex-basis: 35%;
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .about-col-1 img {
-  width: 100%;
+  width: 80%;
   border-radius: 15px;
+  margin-top: 30px;
 }
 .about-col-2 {
-  flex-basis: 60%;
+  flex-basis: 65%;
 }
 .sub-title {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 10px;
 }
 .tab-titles {
   display: flex;
@@ -131,6 +152,7 @@ nav ul li a:hover::after {
 /* ----------------------------------services-------------------------------------- */
 #services {
   padding: 3px 0;
+  padding-top: 100px;
 }
 .services-list {
   display: grid;
@@ -171,6 +193,7 @@ nav ul li a:hover::after {
 /* ------------------------------Portfolio--------------------------- */
 #portfolio {
   padding: 50px 0;
+  padding-top: 90px;
 }
 .work-list {
   display: grid;
@@ -391,6 +414,21 @@ nav .fa-solid {
   }
   .copyright {
     font-size: 14px;
+  }
+
+  #about {
+    padding-top: 20px;
+  }
+
+  #services {
+    padding-top: 40px;
+  }
+
+  #portfolio {
+    padding-top: 35px;
+  }
+  #contact {
+    padding-top: 35px;
   }
 }
 /* ----------------------------contact form submit message------------------------------ */

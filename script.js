@@ -21,6 +21,12 @@
         function closemenu(){
             sidemenu.style.right="-200px";
         }
+
+        document.querySelectorAll('#sidemenu a').forEach((link) => {
+    link.addEventListener('click', () => {
+        closemenu();
+    });
+});
 //   --------------------------------------------------------------------------
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwxDTXTQaQ72bnXhFFddckGY7thw1ELJ5GWn6ZvKGgLFQ3enVjSdm6Ddxd6s8IMZuM0/exec'
         const form = document.forms['submit-to-google-sheet']
