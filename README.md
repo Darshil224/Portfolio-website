@@ -1,12 +1,12 @@
 # Darshil Chitranshi – Portfolio Website
 
 Welcome to my personal portfolio website, showcasing my journey as a Web Developer.
-
+<!--
 ## 🌐 Live Demo
 
 View the live portfolio here:  
 🔗 [https://darshil-chitranshi.netlify.app](https://darshil-chitranshi.netlify.app/)
-
+-->
 ## 🧰 Features
 
 - **Responsive Design**: Optimized for both desktop and mobile devices.
